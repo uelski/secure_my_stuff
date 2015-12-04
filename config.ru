@@ -1,2 +1,3 @@
 require './app'
-run Sinatra::Application 
+require './models/account'
+run Sinatra::Application
